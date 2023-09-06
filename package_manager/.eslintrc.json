@@ -1,0 +1,15 @@
+//Aquí van todas las reglas que queremos ejecutar
+{
+    "extends":"eslint:recommended",
+    "env":{
+        "es6":true,
+        "node":true
+    },
+    "parserOptions":{
+        "ecmaVersion":2017
+    },
+    "root":true,
+    "rules":{//lo anterior es una general ahora esta es la de las reglas
+        "camelcase":1
+    }
+}

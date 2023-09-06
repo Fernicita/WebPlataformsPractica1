@@ -1,0 +1,25 @@
+{
+  "name": "package_manager",
+  "version": "1.0.0",
+  "description": "actividad de clase",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/mocha",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "demo",
+    "npm",
+    "test"
+  ],
+  "author": "Ferny",
+  "license": "ISC",
+  "dependencies": {
+    "log4js": "^6.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "mocha": "^10.2.0"
+  }
+}
